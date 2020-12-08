@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'JetBrains Mono', monospace;
+  }
+.header{
+    background: #000000;;
+}
+.what .header{
+    background-color: #312e2e;
+}
+.types .header{
+    background-color: #3d3d3d;
+}
+.causes .header{
+    background-color:#7a7979 ;
+}
+.symptoms .header{
+    background-color: #c5c5c5;
+}
+.treatment .header{
+    background-color: #e7e6e6;
+}
+.prevent .header{
+    background-color: #c5c5c5;
+}
+.facts .header{
+    background-color:#7a7979 ;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 250px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col-2 h1{
+    text-align: center;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+    color: rgb(0, 0, 0);
+}
+.header p{
+    text-align: center;
+}
+.what p{
+    text-align: center;
+}
+.types p{
+    text-align: center;
+}
+.types{
+    border-radius: 50px;
+    border:border-radius;
+}
+.causes{
+    text-align: center;
+}
