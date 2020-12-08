@@ -20,5 +20,5 @@
     transform: translateX(-50%);
 }
 .header .title::after {
-    background: #ffffff;
+    background: #e60000;
 }
